@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Calendar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Generating a calendar with Javascript">
+        <meta name="author" content="Katherine Adjahoe">
+        <link rel="stylesheet/less" type="text/css" href="styles.less" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+        <script src="events.json"></script>
+    </head>
+   <body>
+       <section id="calendar-section" class="container calendar-holder">
+           <div class="row">
+               <div id="calendar-container" class="col">
+                    <div id="calendar-header" class="row calendar-head">
+                        <div class="col">
+                        <div id="left-arrow-container" class="arrow-left align-middle mt-3"></div>
+                        </div>
+                        <div class="col">
+                        <div id="month-container" class="align-middle mt-3"></div>
+                        </div>
+                        <div class="col">
+                        <div id="year-container" class="align-middle mt-3"></div>
+                        </div>
+                        <div class="col">
+                        <div id="right-arrow-container" class="arrow-right align-middle mt-3"></div>
+                        </div>
+                    </div>
+                    <div id="dates-container row">
+                        <table class="table">
+                            <thead>
+                                <tr id="days" class="week-days"></tr>
+                            </thead>
+                            <tbody id="dates">
+    
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="datesEvents" class="col"></div>
+           </div>
+       </section>
+       <script src="index.js" type="text/javascript"></script>
+   </body> 
+</html>
+

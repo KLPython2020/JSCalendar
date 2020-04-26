@@ -1,0 +1,42 @@
+#calendar-section{
+    width: fit-content;
+
+}
+.calendar-head{
+    text-align: center;
+    height: 5em;
+    padding: 1em;
+    align-content: center;
+}
+.arrow-left{
+    display: inline-flex;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #009fff;
+}
+.arrow-right{
+    display: inline-flex;
+    width:  0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #009fff;
+}
+tr{
+    text-align: center;
+}
+tr.week-days{
+    background: #fc5c7d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc5c7d, #6a82fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+}
+td.active{
+    cursor: pointer;
+    background: #f953c6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f953c6, #b91d73); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f953c6, #b91d73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+}

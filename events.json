@@ -1,0 +1,102 @@
+[
+    {
+        "month": 0,
+        "dates": [
+            {
+                "date": 8,
+                "title": "this is the title",
+                "time": "7pm",
+                "details": "these are the details for the event."
+            },
+            {
+                "date": 18,
+                "title": "this is the second title",
+                "time": "1am",
+                "details": "these are the second details for the second event."
+            }
+        ]
+    },
+    {
+        "month": 1,
+        "dates": [
+            {
+                "date": 27,
+                "title": "this is the title",
+                "time": "7pm",
+                "details": "these are the details for the event."
+            },
+            {
+                "date": 18,
+                "title": "this is the second title",
+                "time": "1am",
+                "details": "these are the second details for the second event."
+            },
+            {
+                "date": 5,
+                "title": "this is the second title",
+                "time": "1am",
+                "details": "these are the second details for the second event."
+            }
+        ]
+    },
+    {
+        "month": 2,
+        "dates": [
+            {
+                "date": 15,
+                "title": "this is the title",
+                "time": "7pm",
+                "details": "these are the details for the event."
+            },
+            {
+                "date": 18,
+                "title": "this is the second title",
+                "time": "1am",
+                "details": "these are the second details for the second event."
+            }
+        ]
+    },
+    {
+        "month": 3,
+        "dates": [
+            {
+                "date": 4,
+                "title": "this is the title",
+                "time": "7pm",
+                "details": "these are the details for the event.",
+                "pic": "students-in-after-school-computer-coding-class-P7SH58D.jpg"
+            },
+            {
+                "date": 4,
+                "title": "this is the title #4",
+                "time": "3pm",
+                "details": "these are the details for the event on the same day.",
+                "pic": "students-in-after-school-computer-coding-class-P7SH58D.jpg"
+            },
+            {
+                "date": 13,
+                "title": "this is the second title",
+                "time": "1am",
+                "details": "these are the second details for the second event.",
+                "pic": "students-in-after-school-computer-coding-class-P7SH58D.jpg"
+            }
+        ]
+    },
+    {
+        "month": 4,
+        "dates": [
+            {
+                "date": 18,
+                "title": "this is the title",
+                "time": "7pm",
+                "details": "these are the details for the event."
+            },
+            {
+                "date": 24,
+                "title": "this is the second title",
+                "time": "1am",
+                "details": "these are the second details for the second event."
+            }
+        ]
+    }
+]

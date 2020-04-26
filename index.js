@@ -34,8 +34,8 @@ const monthsOfTheYear = [
     ['November', 30],
     ['December', 31]
 ];
-yearContainer.innerHTML = year;
-monthContainer.innerHTML = monthsOfTheYear[month][0];
+yearContainer.innerHTML = `<h3>${year}</h3>`;
+monthContainer.innerHTML = `<h3>${monthsOfTheYear[month][0]}</h3>`;
 daysPopulation();
 firstDayOFTheMonth(month);
 function daysPopulation (){
@@ -98,7 +98,7 @@ function populateDates (events, month){
     const totalDates = monthsOfTheYear[month][1];
     const startDay =  firstDayOFTheMonth(month);
     console.log('this is the start day: ' + startDay);
-    monthContainer.innerHTML = monthsOfTheYear[month][0];
+    monthContainer.innerHTML = `<h3>${monthsOfTheYear[month][0]}<h3>`;
     console.log(events);
     console.log('is this working');
     renderInfo(events);

@@ -15,21 +15,28 @@
                     <div class="col-md-4 mb-3">
                         <label for="title">Name of event</label>
                         <input type="text" id="titleInput" value="" name="title" class="form-control">
-                        <div class="">Please enter a title.</div>
+                        <div id="titleWarn" class="hide invalid">Please enter a title.</div>
+                        <button id="titleButton" class="btn btn-primary" type="submit">Next</button>
                     </div>
-                    <button id="monthButton" class="btn btn-primary" type="submit">Next</button>
+                    
                 </div>
                 <div id="eventDate" class="form-row">
-                    <div id="month" class="col-md-2 mb-3"></div>
-                    <div id="date" class="col">
-                        
+                    <div id="month" class="col-md-4 mb-3">
+                        <label for="month">What month will your event be held?</label>
                     </div>
-                    <div id="year" class="col"></div>
+                    <div id="date" class="col-md-4 mb-3">
+                        <label for="month">What date will your event be held?</label>
+                    </div>
+                    <div id="year" class="col-md-4 mb-3">
+                        <label for="month">What year will your event be held?</label>
+                    </div>
+                    <button id="dateButton" class="btn btn-primary hide" type="submit">Next</button>
                 </div>
-                <div id="eventTitle" class="form-row"></div>
-                <div id="eventTitle" class="form-row"></div>
-                <div id="eventTitle" class="form-row"></div>
-            
+                <div id="eventTime" class="form-row">
+                    <div id="time" class="col-md-4 mb-3">
+
+                    </div>
+                </div>
         </section>
         <script src="addEvents.js"></script>
     </body>

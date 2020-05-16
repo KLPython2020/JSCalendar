@@ -22,21 +22,28 @@
                 </div>
                 <div id="eventDate" class="form-row">
                     <div id="month" class="col-md-4 mb-3">
-                        <label for="month">What month will your event be held?</label>
+                        <!-- <label for="month">What month will your event be held?</label> -->
                     </div>
                     <div id="date" class="col-md-4 mb-3">
-                        <label for="month">What date will your event be held?</label>
+                        <!-- <label for="month">What date will your event be held?</label> -->
                     </div>
                     <div id="year" class="col-md-4 mb-3">
-                        <label for="month">What year will your event be held?</label>
+                        <!-- <label for="month">What year will your event be held?</label> -->
                     </div>
                     <button id="dateButton" class="btn btn-primary hide" type="submit">Next</button>
                 </div>
-                <div id="eventTime" class="form-row">
-                    <div id="time" class="col-md-4 mb-3">
-
+                <div id="eventTime" class="mb-3 mt-3">
+                    <div class="form-row">
+                        <div id="hours" class="col-md-4 mb-3"></div>
+                    <div id="mintues" class="col-md-4 mb-3"></div>
+                    <div id="amPm" class="col-md-4 mb-3"></div>
                     </div>
                 </div>
+                <div id="fileUploader" class="custom-file hide">
+                    <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                    <div class="invalid-feedback">Example invalid custom file feedback</div>
+                  </div>
         </section>
         <script src="addEvents.js"></script>
     </body>
